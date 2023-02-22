@@ -1,0 +1,112 @@
+body {
+    background-color: rgb(61, 131, 107);
+
+}
+
+.contenedor {
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.titulo {
+    text-align: center;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    color: white;
+}
+
+
+.contenedorImg {
+    position: relative;
+}
+
+
+.columnas {
+    display: grid;
+    width: 100%;
+    height: 30vh;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+}
+
+
+.columna1,
+.columna2 {
+    border: 5px solid #FFF;
+    width: 90%;
+}
+
+.imagen1,
+.imagen2 {
+    width: 100%;
+    height: 30vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.imagen1 {
+    background-image: url('../assets/images/kari-shea-eMzblc6JmXM-unsplash.jpg');
+    background-position: center ;
+}
+
+.imagen2 {
+    background-image: url('../assets/images/mikhail-vasilyev-NodtnCsLdTE-unsplash.jpg');
+    background-position: center;
+}
+
+
+
+.migas {
+    margin-top: 7%;    
+}
+
+/* Style the list */
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+}
+
+/* Display list items side by side */
+ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+}
+
+/* Add a slash symbol (/) before/behind each list item */
+ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: rgb(0, 0, 0);
+    content: "/\00a0";
+}
+
+/* Add a color to all links inside the list */
+ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+}
+
+/* Add a color on mouse-over */
+ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+}
+
+.columna {
+    display: grid;
+    width: 100%;
+    height: 30vh;
+    justify-items: center;
+}
+
+
+.columnaUnica {
+    border: 5px solid #FFF;
+    width: 70%;
+
+}
